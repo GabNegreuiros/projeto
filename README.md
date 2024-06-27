@@ -91,7 +91,7 @@ Para usar a API, execute o seguinte comando para iniciar o servidor:
 uvicorn main:app --reload
 ```
 
-Acesse a documentação da API em [http://localhost:8000/docs](http://localhost:8000/docs) para ver os endpoints disponíveis e exemplos de como usar cada um deles.
+Acesse a documentação da API em [http://localhost:8000/docs](http://localhost:8) para ver os endpoints disponíveis e exemplos de como usar cada um deles.
 
 ## Documentação da API
 
@@ -110,7 +110,12 @@ Contribuições são bem-vindas! Para contribuir com este projeto, siga os passo
 ## Licença
 
 Este projeto está licenciado sob a [Nome da Licença]. Consulte o arquivo LICENSE para mais detalhes.
-```
+```INSTALAÇÃO
+Passo 1: Usar o seguinte comando no terminal (certifique-se de que está na raiz do projeto):
+
+pip install uvicorn fastapi sqlalchemy pymupdf motor pymongo jinja2 pydantic alembic
+
+Passo 2: Usar o seguinte comando no terminal na raiz do diretório para rodar o servidor: python -m uvicorn app.main:app --reload
 
 ### Considerações Finais
 
